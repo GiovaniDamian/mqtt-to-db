@@ -12,7 +12,7 @@ A TypeScript service that consumes metrics from an MQTT broker and stores them i
 - [Data Validation](#data-validation)
 - [Usage](#usage)
 - [Publishing Tests](#publishing-tests)
-- [Screenshots](#screenshots).
+- [Screenshots](#screenshots)
 
 ---
 
