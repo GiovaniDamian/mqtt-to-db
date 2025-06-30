@@ -9,7 +9,6 @@ export const pool = new Pool({
   password: process.env.PG_PASSWORD,
   database: process.env.PG_DATABASE,
   ssl: {
-    // Permite usar o certificado autofirmado do Supabase
     rejectUnauthorized: false
   }
 });
