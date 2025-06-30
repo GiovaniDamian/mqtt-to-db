@@ -12,7 +12,7 @@ A TypeScript service that consumes metrics from an MQTT broker and stores them i
 - [Data Validation](#data-validation)
 - [Usage](#usage)
 - [Publishing Tests](#publishing-tests)
-- [Screenshots] (#screenshots)
+- [Screenshots](#screenshots).
 
 ---
 
@@ -112,19 +112,19 @@ Before storing any payload, the service:
 
 The 'publisher.ts' script sends example messages for each topic. To run it:
 
-    ```bash
-    npm run pub
-    ```
+   ```bash
+   npm run pub
+   ```
 
 This will publish sample payloads to:
-
+```
 sensor/device123/light
 sensor/device123/temperature
 state/device123/buttons
 state/device123/leds
 state/device123/fans
 state/device123/trays
-
+```
 Check your service logs and Supabase tables to confirm data insertion.
 
 ## Screenshots 📸
