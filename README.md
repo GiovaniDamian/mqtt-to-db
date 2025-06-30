@@ -127,7 +127,7 @@ state/device123/trays
 ```
 Check your service logs and Supabase tables to confirm data insertion.
 
-## Screenshots 📸
+## Screenshots
 
 **Sensor Data Table**  
 ![sensor_data](assets/screenshots/sensor_data.png)
@@ -138,8 +138,8 @@ Check your service logs and Supabase tables to confirm data insertion.
 **State Fans Table**  
 ![state_fans](assets/screenshots/state_fans.png)
 
-**State Fans Table**  
+**State Leds Table**  
 ![state_fans](assets/screenshots/state_leds.png)
 
-**State Fans Table**  
+**State Trays Table**  
 ![state_fans](assets/screenshots/state_trays.png)
