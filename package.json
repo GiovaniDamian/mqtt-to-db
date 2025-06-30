@@ -1,0 +1,27 @@
+{
+  "name": "mqtt-to-db",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "ts-node-dev --respawn src/index.ts",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "ts-node src/publisher.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/mqtt": "^2.5.0",
+    "@types/node": "^24.0.7",
+    "@types/pg": "^8.15.4",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.3"
+  },
+  "dependencies": {
+    "@supabase/supabase-js": "^2.50.2",
+    "dotenv": "^17.0.0",
+    "mqtt": "^5.13.1",
+    "pg": "^8.16.3"
+  }
+}
